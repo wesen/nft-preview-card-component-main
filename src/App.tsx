@@ -10,8 +10,8 @@ import avatarUrl from "../images/image-avatar.png"
 function App() {
 
     return (
-        <div className="bg-main-bg overflow-auto font-outfit h-screen">
-            <div className="bg-card-bg rounded-xl w-[327px] mx-auto m-16 p-6
+        <div className="bg-main-bg overflow-auto font-outfit h-screen w-screen">
+            <div className="bg-card-bg rounded-xl w-[327px] lg:w-[350px] mx-auto m-16 p-6
             flex flex-col divide-y divide-line
             shadow-card">
                 <div className="mb-4">
