@@ -14,6 +14,9 @@ module.exports = {
       'white': 'hsl(0, 0%, 100%)',
     },
     extend: {
+      boxShadow: {
+        'card': '0px 25px 50px rgba(0, 0, 0, 0.1)'
+      },
       fontFamily: {
         outfit: ['Outfit', 'sans-serif']
       },

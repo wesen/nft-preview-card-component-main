@@ -10,12 +10,19 @@ import avatarUrl from "../images/image-avatar.png"
 function App() {
 
     return (
-        <div className="bg-main-bg overflow-auto font-outfit">
+        <div className="bg-main-bg overflow-auto font-outfit h-screen">
             <div className="bg-card-bg rounded-xl w-[327px] mx-auto m-16 p-6
-            flex flex-col divide-y divide-line">
+            flex flex-col divide-y divide-line
+            shadow-card">
                 <div className="mb-4">
-                    <img src={equilibriumUrl} className="rounded-xl"/>
-                    <h1 className="text-white text-heading font-semibold mt-6">Equilibrium #3429</h1>
+                    <div className="bg-cyan rounded-xl">
+                        <img src={equilibriumUrl} className="rounded-xl
+                     lg:cursor-pointer lg:hover:opacity-50 lg:background-cyan"/>
+                    </div>
+                    <h1 className="
+                    text-white text-heading font-semibold mt-6
+                    lg:hover:text-cyan lg:cursor-pointer
+                    ">Equilibrium #3429</h1>
 
                     <div>
                         <div className="text-soft-blue text-body font-light mt-3">Our Equilibrium collection promotes
@@ -39,7 +46,7 @@ function App() {
                 <div className="flex flex-row justify-start items-center gap-4 pt-4">
                     <img className="w-8 border-white border border-1 rounded rounded-full"
                          src={avatarUrl}/>
-                    <div className="text-soft-blue ">Creation of <span className="text-white">Jules Wyvern</span></div>
+                    <div className="text-soft-blue ">Creation of <span className="cursor-pointer lg:hover:text-cyan text-white">Jules Wyvern</span></div>
                 </div>
             </div>
         </div>
