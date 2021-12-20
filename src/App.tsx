@@ -1,5 +1,3 @@
-import {useState} from 'react'
-import logo from './logo.svg'
 import './App.css'
 
 import equilibriumUrl from '../images/image-equilibrium.jpg'
@@ -8,7 +6,6 @@ import iconClockUrl from "../images/icon-clock.svg"
 import avatarUrl from "../images/image-avatar.png"
 
 function App() {
-
     return (
         <div className="bg-main-bg overflow-auto font-outfit h-screen w-screen">
             <article className="bg-card-bg rounded-xl w-[327px]
@@ -17,11 +14,12 @@ function App() {
             shadow-card">
                 <main className="mb-[15px]">
                     <figure className="bg-cyan rounded-xl">
-                        <img src={equilibriumUrl}
-                             alt="Image of a glassy cube"
-                             className="rounded-xl
-                                        lg:cursor-pointer lg:hover:opacity-50 lg:background-cyan
+                        <a href="#">
+                            <img src={equilibriumUrl}
+                                 alt="Image of a glassy cube"
+                                 className="rounded-xl lg:cursor-pointer lg:hover:opacity-50 lg:background-cyan
                      "/>
+                        </a>
                     </figure>
                     <h1 className="mt-[22px]">
                         <a href="#" className="
