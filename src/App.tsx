@@ -12,7 +12,7 @@ function App() {
             lg:w-[350px] mx-auto m-16 mt-[152px] p-6
             flex flex-col divide-y divide-line gap-[7px]
             shadow-card">
-                <main className="mb-[15px]">
+                <section className="mb-[15px]">
                     <figure className="bg-cyan rounded-xl">
                         <a href="#">
                             <img src={equilibriumUrl}
@@ -31,11 +31,11 @@ function App() {
                     </h1>
 
                     <div>
-                        <section className="text-soft-blue text-body font-light mt-[14px]">
+                        <p className="text-soft-blue text-body font-light mt-[14px]">
                             Our Equilibrium collection promotes balance and calm.
-                        </section>
+                        </p>
 
-                        <section className="pt-[1px] flex flex-row justify-between mt-5 items-center">
+                        <div className="pt-[1px] flex flex-row justify-between mt-5 items-center">
                             <div className="flex flex-row whitespace-nowrap gap-[7px]">
                                 <img className="object-contain" alt="" src={iconEthereumUrl}/>
                                 <p className="text-cyan text-caption inline font-semibold">0.041 ETH</p>
@@ -44,9 +44,9 @@ function App() {
                                 <img className="object-contain" alt="" src={iconClockUrl}/>
                                 <p className="text-soft-blue  text-caption whitespace-nowrap">3 days left</p>
                             </div>
-                        </section>
+                        </div>
                     </div>
-                </main>
+                </section>
 
                 <footer className="flex flex-row justify-start items-center gap-4 pt-4">
                     <img className="w-[33px] border-white border border-1 rounded rounded-full"
