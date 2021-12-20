@@ -8,7 +8,7 @@ import avatarUrl from "../images/image-avatar.png"
 function App() {
     return (
         <div className="bg-main-bg overflow-auto font-outfit h-screen w-screen">
-            <article className="bg-card-bg rounded-xl w-[327px]
+            <div className="bg-card-bg rounded-xl w-[327px]
             lg:w-[350px] mx-auto m-16 mt-[152px] p-6
             flex flex-col divide-y divide-line gap-[7px]
             shadow-card">
@@ -21,31 +21,33 @@ function App() {
                      "/>
                         </a>
                     </figure>
-                    <h1 className="mt-[22px]">
-                        <a href="#" className="
+                    <article>
+                        <h1 className="mt-[22px]">
+                            <a href="#" className="
                     text-white text-heading font-semibold
                     lg:hover:text-cyan
                     ">
-                            Equilibrium #3429
-                        </a>
-                    </h1>
+                                Equilibrium #3429
+                            </a>
+                        </h1>
 
-                    <div>
-                        <p className="text-soft-blue text-body font-light mt-[14px]">
-                            Our Equilibrium collection promotes balance and calm.
-                        </p>
+                        <div>
+                            <p className="text-soft-blue text-body font-light mt-[14px]">
+                                Our Equilibrium collection promotes balance and calm.
+                            </p>
 
-                        <div className="pt-[1px] flex flex-row justify-between mt-5 items-center">
-                            <div className="flex flex-row whitespace-nowrap gap-[7px]">
-                                <img className="object-contain" alt="" src={iconEthereumUrl}/>
-                                <p className="text-cyan text-caption inline font-semibold">0.041 ETH</p>
-                            </div>
-                            <div className="flex flex-row gap-[7px] pr-[3px]">
-                                <img className="object-contain" alt="" src={iconClockUrl}/>
-                                <p className="text-soft-blue  text-caption whitespace-nowrap">3 days left</p>
+                            <div className="pt-[1px] flex flex-row justify-between mt-5 items-center">
+                                <div className="flex flex-row whitespace-nowrap gap-[7px]">
+                                    <img className="object-contain" alt="" src={iconEthereumUrl}/>
+                                    <p className="text-cyan text-caption inline font-semibold">0.041 ETH</p>
+                                </div>
+                                <div className="flex flex-row gap-[7px] pr-[3px]">
+                                    <img className="object-contain" alt="" src={iconClockUrl}/>
+                                    <p className="text-soft-blue  text-caption whitespace-nowrap">3 days left</p>
+                                </div>
                             </div>
                         </div>
-                    </div>
+                    </article>
                 </section>
 
                 <footer className="flex flex-row justify-start items-center gap-4 pt-4">
@@ -58,7 +60,7 @@ function App() {
                         </a>
                     </p>
                 </footer>
-            </article>
+            </div>
         </div>
     )
 }
