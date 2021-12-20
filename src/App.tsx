@@ -22,14 +22,14 @@ function App() {
                         </a>
                     </figure>
                     <article>
-                        <h1 className="mt-[22px]">
+                        <h2 className="mt-[22px]">
                             <a href="#" className="
                     text-white text-heading font-semibold
                     lg:hover:text-cyan
                     ">
                                 Equilibrium #3429
                             </a>
-                        </h1>
+                        </h2>
 
                         <div>
                             <p className="text-soft-blue text-body font-light mt-[14px]">
